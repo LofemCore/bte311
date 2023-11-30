@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.kutu {
+    background-color: rgb(26, 14, 14);
+    border: 1px solid rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.kutu a {
+    color: wheat;
+    font-size: 30px;
+    padding: auto;
+}
+
+.kutu-6 {
+    background-color: rgb(29, 146, 146);
+}
+
+@media (max-width: 650px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 80%;
+    }
+
+    .kutu {
+        width: 80%;
+    }
+}
